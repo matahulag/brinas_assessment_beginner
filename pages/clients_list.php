@@ -1,5 +1,5 @@
 <?php
-include "/db.php";
+include "../db.php";
 $result = mysqli_query($conn, "SELECT * FROM clients ORDER BY client_id DESC");
 ?>
 <!doctype html>
